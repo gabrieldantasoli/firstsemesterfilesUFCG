@@ -1,0 +1,79 @@
+- input: |
+    2
+    4 3 5
+    2 7 9 4
+    4 7 9 2 10 8
+    fim
+  output: |
+    linha 2 inválida: 4 3 5
+    linha 3 inválida: 2 7 9 4
+    sequências lidas: 4 (inválidas: 2)
+    
+- input: |
+    1 4
+    2 3 7 4
+    5 3 9 4 6 8
+    17 2
+    fim
+  output: |
+    linha 1 inválida: 1 4
+    linha 2 inválida: 2 3 7 4
+    linha 3 inválida: 5 3 9 4 6 8
+    linha 4 inválida: 17 2
+    sequências lidas: 4 (inválidas: 4)
+    
+- input: |
+    2 4 7 
+    18
+    3 8 6 7 3 2 10
+    2 8 7 12
+    2 4
+    fim
+  output: |
+    sequências lidas: 5 (inválidas: 0)
+
+- input: |
+    3 1 2
+    9
+    5 6 8 7 10 9 11
+    fim
+  output: |
+    linha 1 inválida: 3 1 2
+    linha 2 inválida: 9
+    linha 3 inválida: 5 6 8 7 10 9 11
+    sequências lidas: 3 (inválidas: 3)
+
+- input: |
+    4 3 9 6
+    fim
+  output: |
+    linha 1 inválida: 4 3 9 6
+    sequências lidas: 1 (inválidas: 1)
+
+- input: |
+    2 7 9 6 4 2 3 10 12
+    fim
+  output: |
+    sequências lidas: 1 (inválidas: 0)
+
+- input: |
+    7 6 19 17 2 4 3
+    fim
+  output: |
+    linha 1 inválida: 7 6 19 17 2 4 3
+    sequências lidas: 1 (inválidas: 1)
+
+- input: |
+    3 6 7 9 4 4 19
+    1 2 3 4 5 6 7 8
+    8 5 7 5 3 6 8 10 12
+    -1 0 10 23 71 -100
+    -9 8 -1 3 2 200 -23
+    fim
+  output: |
+    linha 1 inválida: 3 6 7 9 4 4 19
+    linha 2 inválida: 1 2 3 4 5 6 7 8
+    linha 4 inválida: -1 0 10 23 71 -100
+    linha 5 inválida: -9 8 -1 3 2 200 -23
+    sequências lidas: 5 (inválidas: 4)
+
